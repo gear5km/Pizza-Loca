@@ -3,12 +3,14 @@
     text-align:center;
     font-size: 35px;
     height:300px;
+    width:fill;
+    background-color: #33cc33;
 }
 
 .dropbtn{
     background-color: white;
     font-size: 11px;
-    border:black;
+    border:solid gray 1px;
     width: 24em;
     padding: 15px;
 }
@@ -17,7 +19,6 @@
 .dropdown{
     position:relative;
     display: inline-block;
-    border: 5px solid gray;
     
 }
 
@@ -48,28 +49,33 @@
 .dropbtn:hover {background-color:gray;}
 
 .panelmain{
-    border: black 22px;
+    
     height:220px;
     width:fill;
-    background-color:red;
+;
     
 }
 
-#toppings-2{
-    background-color:green;
+.pizza{
+    position:relative;
+    text-align: center;
+    top: 105px;
+    left: 70px;
+}
+
+/* #toppings-2{} */
     
-}
+    
 
-#crust{
-    background-color: blue;
-}
 
-#size{
-    background-color:yellow;
-}
+/*#crust{}*/
+
+/*#size{}*/
 
 .order-details{
     padding: 50px;
     height: 300px;
     width: fill;
+    background-color: red;
+    
 }
