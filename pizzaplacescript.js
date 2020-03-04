@@ -1,4 +1,33 @@
+function PizzaLoca(){
 
+function pizzaSelector(){
+    var pizzaObject=document.getElementById("pizza1").value;
+    var pizzaName;
+    alert(pizzaObject);
+    if (pizzaObject == 1)
+        {
+            pizzaName="chicken";
+        }
+    return pizzaName;
+}
+
+var pizzaObj = pizzaSelector();
+alert (pizzaObj);
+
+var object1 = document.getElementById("object1"); // Find document <head>
+var s = document.createElement("h3"); // Create a <script> element
+s.textContent = pizzaObj; // Set its src attribute
+object1.appendChild(s); // Insert the <script> into head
+
+}
+
+/* var pizzaSelection= ["1","2","3","4","5","6","7","8"]
+
+pizzaSelection["1"]=chicken;
+
+*/
+
+/*
 function pizzaToppings(pizzaName, price){
     this.name=name;
     this.price=price;
@@ -40,4 +69,5 @@ var glutenFree = new pizzaCrust (glutenFree, 100);
 
 var PizzaOrder =["toppings, size, crust"]
 
+*/
 

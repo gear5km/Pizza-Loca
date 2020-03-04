@@ -1,9 +1,11 @@
 <!DOC TYPE html>
     <html>
         <head>
-            <script src="pizza-loca-script.js"></script>
+        
             <script src="jquery/jquery-3.4.1.min.js"></script>
             <script src="js/bootstrap.js"></script>
+            <script src="jquery-custom.js"></script>
+            <script src="pizzaplacescript.js"></script>
 
             <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
             <link href="pizza-loca.css" rel="stylesheet" type="text/css" media="all">
@@ -38,9 +40,12 @@
                     <p>STANDARD TOPPINGS</p>
                         <div class="row">
                             <div class="col-md-3">
+                                <div class="PizzaBox">
+                                    <input type="radio" class="pizza" id="pizza1" name="Toppings" value="1" onclick="PizzaLoca()"/>
+                                    <img src="pizza1.jpg" width="160px" height="150px" id="pizza1image" style="position: relative">
+                                    <p class="pizzatext1"> Chicken</p>
+                                </div>
                                 
-                                <input type="radio" class="pizza" id="pizza1" name="Toppings" value="1">
-                                <img src="pizza1.jpg" width="160px" height="150px" id="pizza1image">
                                 
                                 
                             </div>
@@ -142,7 +147,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="card">
-                            <p> OBJECT 1</p>
+                            <p id="object1"> OBJECT 1</p>
                         </div>    
                     </div>
 

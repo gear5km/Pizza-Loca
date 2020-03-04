@@ -63,6 +63,21 @@
     left: 70px;
 }
 
+.PizzaBox{
+    width: 180px;
+    height: 180px;
+    /* border: solid gray 1px; */
+}
+
+.pizzatext1{
+    position: absolute;
+    font-size: 23;
+    display:none;
+    top:40%;
+    left:25%;
+    
+}
+
 /* #toppings-2{} */
     
     
